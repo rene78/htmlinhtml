@@ -9,8 +9,10 @@
 </head>
 
 <body>
-  <div w3-include-html="external.html"></div>
-  <p>A function to import external html files. Works, but try web components nonetheless.</p>
+  <div w3-include-html="navbar.html"></div>
+  <div class="content">
+    <p>This is the place for the actual web app</p>
+  </div>
   <script>
     function includeHTML() {
       var z, i, elmnt, file, xhttp;
